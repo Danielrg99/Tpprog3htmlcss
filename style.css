@@ -1,0 +1,70 @@
+.inicio{
+    margin-left: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.encabezado{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+#encabezadoid {
+  margin: 0;
+  padding: 0;
+}
+nav{
+    margin-left: 100px;
+}
+.boton{
+    border-radius: 10px;
+    background-color: rgb(1,97,182,255);
+    color: white;
+}
+.boton:hover{
+    background-color: rgb(1,35,80,255);
+    color: white;
+}
+.tabla{
+    background-color: hsla(59, 83%, 56%, 0.555);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: url('IMG/fondo.jpg');
+    background-size: cover;
+}
+header{
+    background-image: url('IMG/cartulinazul.png');
+    background-size: cover;
+    border-bottom: 1px solid #000;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #000;
+    background-color: rgba(96, 194, 96, 0.397);
+}
+#lista{
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+.entrehorizontal{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.entrehorizontal > div:last-child {
+  margin-right: 250px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
